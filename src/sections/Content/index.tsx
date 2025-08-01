@@ -25,7 +25,8 @@ export const Content: FC = () => {
           (parseInt(balance) !== 0 ? "visible" : "invisible")
         }
       >
-        Faucet's current balance is {numeral(balance).format("1,000,000.00")} CKB.
+        &nbsp;Faucet's current balance is{" "}
+        {numeral(balance).format("1,000,000.00")} CKB.&nbsp;
       </div>
     </section>
   );
